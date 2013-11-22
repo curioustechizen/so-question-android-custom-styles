@@ -1,10 +1,10 @@
 
-package com.example.customstyletrial;
+package com.github.curioustechizen.soissues.customstyle;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-import com.github.curioustechizen.soissues.customstyle.R;
+
 
 public class MainActivity extends Activity {
 
