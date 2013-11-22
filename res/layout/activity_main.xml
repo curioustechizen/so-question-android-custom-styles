@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_width="@dimen/shape_size_small"
+        android:layout_height="@dimen/shape_size_small"
+        android:padding="16dp"
+        style="@style/CustomShapeSmall"
+        android:background="@drawable/custom_shape" />
+    
+    <View
+        android:layout_width="@dimen/shape_size_large"
+        android:layout_height="@dimen/shape_size_large"
+        android:padding="16dp"
+        style="@style/CustomShapeLarge"
+        android:background="@drawable/custom_shape" />
+
+</LinearLayout>
